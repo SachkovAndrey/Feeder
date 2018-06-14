@@ -1,0 +1,42 @@
+﻿<Window x:Class="Feeder.WpfApp.Views.ErrorView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:Feeder.WpfApp.Views"
+        xmlns:viewModels="clr-namespace:Feeder.WpfApp.ViewModels" mc:Ignorable="d" d:DesignHeight="300" Width="200"
+        WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" AllowsTransparency="True"
+        Background="Transparent" Height="150" d:DesignWidth="300" WindowStartupLocation="CenterOwner"
+        d:DataContext="{d:DesignInstance viewModels:ErrorViewModel}">
+
+    <Border Style="{StaticResource Error.Border}">
+
+        <Grid Background="DarkRed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="5" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="5" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="20" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource Error.TextBlock}" Text="Error" />
+            <TextBlock Grid.Row="3" Grid.Column="1" Style="{StaticResource Error.SmallTextBlock}"
+                       Text="{Binding Error}" TextWrapping="WrapWithOverflow" />
+
+            <Button Grid.Row="5" Grid.Column="1" Style="{StaticResource Error.Button}"
+                    Command="{Binding Path=DismissCommand}">
+                <Button.Content>
+                    <TextBlock Text="Dismiss" />
+                </Button.Content>
+            </Button>
+
+        </Grid>
+    </Border>
+
+</Window>

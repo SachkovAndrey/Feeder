@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Feeder.WpfApp.Styles"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <FontFamily x:Key="App.FontFamily">Segoe UI Light</FontFamily>
+
+    <system:Double x:Key="TextSize">20</system:Double>
+    <system:Double x:Key="MediumTextSize">18</system:Double>
+    <system:Double x:Key="SmallTextSize">14</system:Double>
+    <system:Double x:Key="MiniTextSize">12</system:Double>
+    <system:Double x:Key="ControlTextSize">18</system:Double>
+    <system:Double x:Key="ControlSmallTextSize">16</system:Double>
+
+</ResourceDictionary>

@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Feeder.WpfApp.Styles">
+
+    <Color x:Key="ButtonForeground">AliceBlue</Color>
+    <Color x:Key="SteelBlueColor">SteelBlue</Color>
+    <Color x:Key="BorderBackground">LightSteelBlue</Color>
+    <Color x:Key="WhiteColor">White</Color>
+    <Color x:Key="BlackColor">Black</Color>
+
+    <SolidColorBrush x:Key="ButtonForegroundBrush" Color="AliceBlue" />
+    <SolidColorBrush x:Key="ButtonBackgroundBrush" Color="{StaticResource SteelBlueColor}" />
+    <SolidColorBrush x:Key="IconFillBrush" Color="{StaticResource SteelBlueColor}" />
+    <SolidColorBrush x:Key="TextBorderBrush" Color="{StaticResource SteelBlueColor}" />
+    <SolidColorBrush x:Key="TextForegroundBrush" Color="{StaticResource WhiteColor}" />
+    <SolidColorBrush x:Key="SpinnerBorderBrush"  Color="{StaticResource WhiteColor}" />
+    <SolidColorBrush x:Key="PhotorBackgroundBrush" Color="SkyBlue" />
+    <SolidColorBrush x:Key="ErrorBorderBrush" Color="DarkRed" />
+    <SolidColorBrush x:Key="ErrorButtonBackgroundBrush" Color="IndianRed" />
+    <SolidColorBrush x:Key="ErrorButtonPresseddBrush" Color="{StaticResource BlackColor}" />
+    <SolidColorBrush x:Key="SpinnerOverlayStyleFillBrush" Color="{StaticResource BlackColor}" />
+
+    
+
+</ResourceDictionary>
