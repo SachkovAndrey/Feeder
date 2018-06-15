@@ -16,7 +16,7 @@ namespace Feeder.WpfApp.ViewModels
 
         #region Fields
 
-        private string busyContent;
+        
         private bool isBusy;
 
         private INavigationService navigationService;

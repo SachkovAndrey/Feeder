@@ -1,7 +1,6 @@
 ﻿using System.Windows.Input;
 using Caliburn.Micro;
 using Feeder.WpfApp.Commands;
-using Feeder.WpfApp.Views;
 
 namespace Feeder.WpfApp.ViewModels
 {
@@ -10,13 +9,6 @@ namespace Feeder.WpfApp.ViewModels
         #region Static and Readonly Fields
 
         private readonly ICommand dismissCommand;
-
-        #endregion
-
-        #region Fields
-
-        private bool isOpen;
-        private ErrorView popup;
 
         #endregion
 

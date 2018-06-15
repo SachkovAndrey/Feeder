@@ -8,8 +8,6 @@ namespace Feeder.WpfApp.ViewModels
     {
         #region Static and Readonly Fields
 
-        private readonly ErrorViewModel error;
-
         private readonly INavigationService navigationService;
 
         #endregion

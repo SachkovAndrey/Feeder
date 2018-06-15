@@ -98,7 +98,7 @@ namespace Feeder.WpfApp.ViewModels
 
         #region Methods
 
-        protected override async void OnActivate()
+        protected override void OnActivate()
         {
             base.OnActivate();
 
