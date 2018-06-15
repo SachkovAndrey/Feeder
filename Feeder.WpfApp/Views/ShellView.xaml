@@ -5,7 +5,7 @@
         xmlns:local="clr-namespace:Feeder.WpfApp.Views" xmlns:cal="http://www.caliburnproject.org" mc:Ignorable="d"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:viewModels="clr-namespace:Feeder.WpfApp.ViewModels" Title="Feeder - Great content on your desktop."
-        Height="620" Width="420" d:DataContext="{d:DesignInstance viewModels:ShellViewModel}">
+        WindowStyle="ToolWindow" Height="620" Width="420" d:DataContext="{d:DesignInstance viewModels:ShellViewModel}">
 
     <Grid Background="{StaticResource App.Background.Brush}">
         <xctk:BusyIndicator IsBusy="{Binding IsBusy, UpdateSourceTrigger=PropertyChanged}">
