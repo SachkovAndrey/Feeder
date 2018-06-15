@@ -90,9 +90,9 @@
       <Project>{3975160d-deb6-4197-a02a-b639f260c6a5}</Project>
       <Name>Feeder.WpfApp</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ServiceClient\ServiceClient.csproj">
+    <ProjectReference Include="..\ServiceClient\Feeder.ServiceClient.csproj">
       <Project>{ecc9a166-1158-4cae-b5cf-d844407df261}</Project>
-      <Name>ServiceClient</Name>
+      <Name>Feeder.ServiceClient</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -7,8 +7,8 @@
     <ProjectGuid>{ECC9A166-1158-4CAE-B5CF-D844407DF261}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ServiceClient</RootNamespace>
-    <AssemblyName>ServiceClient</AssemblyName>
+    <RootNamespace>Feeder.ServiceClient</RootNamespace>
+    <AssemblyName>Feeder.ServiceClient</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

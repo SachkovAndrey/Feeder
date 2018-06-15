@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Feeder.Common.Exceptions;
 using Feeder.Core.Models;
 
-namespace ServiceClient
+namespace Feeder.ServiceClient
 {
     public class PostServiceClient : IPostServiceClient
     {

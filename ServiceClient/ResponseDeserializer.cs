@@ -1,7 +1,7 @@
 using System.Net.Http;
 using Newtonsoft.Json;
 
-namespace ServiceClient
+namespace Feeder.ServiceClient
 {
     internal static class ResponseDeserializer
     {

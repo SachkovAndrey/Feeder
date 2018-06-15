@@ -3,11 +3,11 @@ using System.Threading.Tasks;
 using Caliburn.Micro;
 using Feeder.Common.Exceptions;
 using Feeder.Core.Models;
+using Feeder.ServiceClient;
 using Feeder.WpfApp.ProgressBar;
 using Feeder.WpfApp.ViewModels;
 using Moq;
 using NUnit.Framework;
-using ServiceClient;
 
 namespace Feeder.WpfApp.Tests.ViewModels
 {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Windows;
 using Caliburn.Micro;
+using Feeder.ServiceClient;
 using Feeder.WpfApp.Reactives;
 using Feeder.WpfApp.ViewModels;
-using ServiceClient;
 
 namespace Feeder.WpfApp
 {

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Caliburn.Micro;
 using Feeder.Core.Models;
+using Feeder.ServiceClient;
 using Feeder.WpfApp.Commands;
 using Feeder.WpfApp.ProgressBar;
 using Feeder.WpfApp.Reactives;
 using Flurl;
-using ServiceClient;
 
 namespace Feeder.WpfApp.ViewModels
 {

@@ -218,9 +218,9 @@
       <Project>{fa203fe7-639d-4c1a-93cf-26822bb7f59e}</Project>
       <Name>Feeder.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ServiceClient\ServiceClient.csproj">
+    <ProjectReference Include="..\ServiceClient\Feeder.ServiceClient.csproj">
       <Project>{ecc9a166-1158-4cae-b5cf-d844407df261}</Project>
-      <Name>ServiceClient</Name>
+      <Name>Feeder.ServiceClient</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

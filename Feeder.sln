@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feeder.Core", "Feeder.Core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feeder.WebService", "Feeder.WebService\Feeder.WebService.csproj", "{D4BC54ED-31A9-499E-B6C2-61AC6632AA55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceClient", "ServiceClient\ServiceClient.csproj", "{ECC9A166-1158-4CAE-B5CF-D844407DF261}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feeder.ServiceClient", "ServiceClient\Feeder.ServiceClient.csproj", "{ECC9A166-1158-4CAE-B5CF-D844407DF261}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feeder.WpfApp", "Feeder.WpfApp\Feeder.WpfApp.csproj", "{3975160D-DEB6-4197-A02A-B639F260C6A5}"
 EndProject

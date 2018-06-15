@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Feeder.Core.Models;
 
-namespace ServiceClient
+namespace Feeder.ServiceClient
 {
     public interface IPostSummaryServiceClient
     {
