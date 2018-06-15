@@ -1,4 +1,5 @@
-﻿using Feeder.Common;
+﻿using System;
+using Feeder.Common;
 using Org.Feeder.FeederDb;
 
 namespace Feeder.Db
@@ -6,6 +7,8 @@ namespace Feeder.Db
     internal class DataBaseFactory : IDataBaseFactory
     {
         #region Static and Readonly Fields
+
+        private static readonly object obj = new Object();
 
         private readonly IConfiguration configuration;
 
@@ -30,8 +33,11 @@ namespace Feeder.Db
 
         public Database Create()
         {
-            db = db ?? new Database(configuration.ConnectionString);
-            return db;
+            lock (obj)
+            {
+                db = db ?? new Database(configuration.ConnectionString);
+                return db;
+            }
         }
 
         #endregion
